@@ -132,7 +132,7 @@ for epoch in range(100):  # 논문은 100 Epoch
           f"Train Acc={train_acc:.4f} | Val Acc={val_acc:.4f}\n")
 
     # ────────────────────── Early Stop ──────────────────────
-    IF_ES = True  # 끄려면 False
+    IF_ES = False  # 끄려면 False
     if IF_ES:
         if epoch>5 and val_loss > prev_loss: patience -=1
         else: patience = 3

@@ -1,0 +1,15 @@
+=== DenseNet121 Chest X-ray Evaluation ===
+
+              precision    recall  f1-score   support
+
+      NORMAL       0.96      0.87      0.91       234
+   PNEUMONIA       0.93      0.98      0.95       390
+
+    accuracy                           0.94       624
+   macro avg       0.94      0.92      0.93       624
+weighted avg       0.94      0.94      0.94       624
+
+
+Confusion Matrix:
+[[204  30]
+ [  9 381]]
